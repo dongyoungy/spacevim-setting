@@ -16,4 +16,20 @@ let g:deoplete#enable_at_startup=1
 let g:python3_host_prog="/usr/bin/python3.6"
 let g:neoformat_enabled_python = ['autopep8']
 set timeoutlen=250
+let g:neomake_python_maker = {
+    \ 'exe': 'python3.6',
+    \ }
+let g:PaperColor_Theme_Options = {
+  \   'language': {
+  \     'python': {
+  \       'highlight_builtins' : 1
+  \     },
+  \     'cpp': {
+  \       'highlight_standard_library': 1
+  \     },
+  \     'c': {
+  \       'highlight_builtins' : 1
+  \     }
+  \   }
+  \ }
 
