@@ -33,3 +33,6 @@ let g:PaperColor_Theme_Options = {
   \   }
   \ }
 
+let g:ctrlp_user_command='find %s -type f'
+let g:ctrlp_max_files = 5000
+let g:ctrlp_max_depth = 3

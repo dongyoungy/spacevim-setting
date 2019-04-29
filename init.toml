@@ -49,6 +49,9 @@ format-on-save = 1
 [[layers]]
 name = "colorscheme"
 
+[[layers]]
+name = "ctrlp"
+
 [[custom_plugins]]
 name = "deoplete-plugins/deoplete-jedi"
 merged = false
