@@ -35,7 +35,6 @@
 name = 'autocomplete'
 auto-completion-return-key-behavior = "complete"
 auto-completion-tab-key-behavior = "smart"
-g:spacevim_autocomplete_method = "deoplete"
 
 [[layers]]
 name = 'shell'
@@ -53,9 +52,29 @@ name = "colorscheme"
 name = "ctrlp"
 
 [[custom_plugins]]
-name = "deoplete-plugins/deoplete-jedi"
-merged = false
+name = "NLKNguyen/papercolor-theme"
+merged = 0
 
 [[custom_plugins]]
-name = "NLKNguyen/papercolor-theme"
+name = "deoplete-plugins/deoplete-jedi"
+merged = 0
+
+[[custom_plugins]]
+name = "ncm2/ncm2"
+merged = 0
+
+[[custom_plugins]]
+name = "ncm2/ncm2-path"
+merged = 0
+
+[[custom_plugins]]
+name = "roxma/nvim-yarp"
+merged = 0
+
+[[custom_plugins]]
+name = "HansPinckaers/ncm2-jedi"
+merged = 0
+
+[[custom_plugins]]
+name = "davidhalter/jedi"
 merged = 0
