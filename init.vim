@@ -37,9 +37,6 @@ let g:python3_host_prog="/usr/bin/python3.6"
 let g:neoformat_enabled_python = ['autopep8']
 let g:neomake_python_enable_makers = ['autopep8']
 set timeoutlen=250
-let g:neomake_python_maker = {
-    \ 'exe': 'python3.6',
-    \ }
 let g:PaperColor_Theme_Options = {
   \   'language': {
   \     'python': {
